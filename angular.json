@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -120,5 +120,10 @@
       }
     }
   },
-  "defaultProject": "projeto-imc"
+  "defaultProject": "projeto-imc",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
